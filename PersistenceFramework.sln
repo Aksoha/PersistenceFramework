@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Extens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Extensions.Prism.Tests", "tests\PersistenceFramework.Extensions.Prism.Tests\PersistenceFramework.Extensions.Prism.Tests.csproj", "{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{655FC5B8-B11B-42E1-8995-BF91AEA4DCC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSample", "samples\BasicSample\BasicSample.csproj", "{2EAC08BF-8F5D-4497-8B2B-1EC9D0D68659}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,7 @@ Global
 		{A5239A52-30F8-4BC3-855E-58F6708847FD} = {9493CC44-E2FA-4001-A59E-7EB30571EB28}
 		{38C5B4BE-0FCA-4D80-B4A4-DE434F142A6F} = {D14854FD-4577-4708-843B-4DF764ADE30C}
 		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E} = {9493CC44-E2FA-4001-A59E-7EB30571EB28}
+		{2EAC08BF-8F5D-4497-8B2B-1EC9D0D68659} = {655FC5B8-B11B-42E1-8995-BF91AEA4DCC7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -46,5 +51,9 @@ Global
 		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAC08BF-8F5D-4497-8B2B-1EC9D0D68659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAC08BF-8F5D-4497-8B2B-1EC9D0D68659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAC08BF-8F5D-4497-8B2B-1EC9D0D68659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAC08BF-8F5D-4497-8B2B-1EC9D0D68659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
