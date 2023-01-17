@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Extensions.Prism", "src\PersistenceFramework.Extensions.Prism\PersistenceFramework.Extensions.Prism.csproj", "{38C5B4BE-0FCA-4D80-B4A4-DE434F142A6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Extensions.Prism.Tests", "tests\PersistenceFramework.Extensions.Prism.Tests\PersistenceFramework.Extensions.Prism.Tests.csproj", "{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF} = {D14854FD-4577-4708-843B-4DF764ADE30C}
 		{A5239A52-30F8-4BC3-855E-58F6708847FD} = {9493CC44-E2FA-4001-A59E-7EB30571EB28}
 		{38C5B4BE-0FCA-4D80-B4A4-DE434F142A6F} = {D14854FD-4577-4708-843B-4DF764ADE30C}
+		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E} = {9493CC44-E2FA-4001-A59E-7EB30571EB28}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -39,5 +42,9 @@ Global
 		{38C5B4BE-0FCA-4D80-B4A4-DE434F142A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C5B4BE-0FCA-4D80-B4A4-DE434F142A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C5B4BE-0FCA-4D80-B4A4-DE434F142A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D5EB58-80C1-44E8-8AE4-3C8A9D52885E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
