@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework", "src
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D14854FD-4577-4708-843B-4DF764ADE30C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9493CC44-E2FA-4001-A59E-7EB30571EB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistenceFramework.Tests", "tests\PersistenceFramework.Tests\PersistenceFramework.Tests.csproj", "{A5239A52-30F8-4BC3-855E-58F6708847FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF} = {D14854FD-4577-4708-843B-4DF764ADE30C}
+		{A5239A52-30F8-4BC3-855E-58F6708847FD} = {9493CC44-E2FA-4001-A59E-7EB30571EB28}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CDB767F-66A9-4E1A-A680-CAB76B13A1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5239A52-30F8-4BC3-855E-58F6708847FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5239A52-30F8-4BC3-855E-58F6708847FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5239A52-30F8-4BC3-855E-58F6708847FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5239A52-30F8-4BC3-855E-58F6708847FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
