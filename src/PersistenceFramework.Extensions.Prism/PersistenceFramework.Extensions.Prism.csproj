@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Holize.PersistenceFramework.Extensions.Prism</AssemblyName>
+        <RootNamespace>Holize.PersistenceFramework.Extensions.Prism</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PersistenceFramework\PersistenceFramework.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Prism.Core" Version="8.1.97"/>
+        <PackageReference Include="Prism.Unity" Version="8.1.97"/>
+    </ItemGroup>
+
+</Project>
