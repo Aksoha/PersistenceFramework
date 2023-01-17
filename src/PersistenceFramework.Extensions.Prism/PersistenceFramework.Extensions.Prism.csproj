@@ -9,12 +9,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\PersistenceFramework\PersistenceFramework.csproj"/>
+        <ProjectReference Include="..\PersistenceFramework\PersistenceFramework.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Prism.Core" Version="8.1.97"/>
-        <PackageReference Include="Prism.Unity" Version="8.1.97"/>
+        <PackageReference Include="Prism.Core" Version="8.1.97" />
+        <PackageReference Include="Prism.Unity" Version="8.1.97" />
     </ItemGroup>
 
 </Project>
