@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <AssemblyName>Holize.PersistenceFramework</AssemblyName>
         <RootNamespace>Holize.PersistenceFramework</RootNamespace>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

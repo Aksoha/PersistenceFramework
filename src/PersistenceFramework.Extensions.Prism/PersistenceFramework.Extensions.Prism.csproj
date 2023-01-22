@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <AssemblyName>Holize.PersistenceFramework.Extensions.Prism</AssemblyName>
         <RootNamespace>Holize.PersistenceFramework.Extensions.Prism</RootNamespace>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>

@@ -13,7 +13,7 @@ public class PersistenceOptions
     public string LocalFilesDirectory { get; set; } =
         Path.Combine(Environment.GetFolderPath(
                 Environment.SpecialFolder.LocalApplicationData),
-            Assembly.GetCallingAssembly().GetName().Name!);
+            Assembly.GetEntryAssembly()!.GetName().Name!);
 
 
     /// <summary>
