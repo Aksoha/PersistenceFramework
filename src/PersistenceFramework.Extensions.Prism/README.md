@@ -23,7 +23,7 @@ containerRegistry.RegisterSingleton<PersistenceOptions>();
 var persistenceOptions = container.Resolve<PersistenceOptions>();
 
 // customize PersistenceOptions for all setting except for SettingC
-options.AutoSave = true;
+persistenceOptions.AutoSave = true;
 
 containerRegistry.RegisterSettings(new SettingA());
 containerRegistry.RegisterSettings(new SettingB());
