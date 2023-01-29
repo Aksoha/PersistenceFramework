@@ -1,0 +1,32 @@
+﻿@page "/"
+@using BlazorExample.Settings
+@using Holize.PersistenceFramework
+
+<p>Current value: <strong>@CounterSettings.Current</strong></p>
+<button class="btn btn-primary" @onclick="IncrementCounter">Increment</button>
+<div>
+    increment by:
+    <input type="number" @bind="CounterSettings.Increment"/>
+</div>
+<button class="btn btn-secondary" @onclick="ResetSettings">Reset to default</button>
+
+@code
+{
+    [Inject]
+    private CounterSettings CounterSettings { get; set; } = default!;
+
+    [Inject]
+    ISettingsManager SettingsManager { get; set; } = default!;
+
+
+    private void IncrementCounter()
+    {
+        CounterSettings.Current += CounterSettings.Increment;
+    }
+
+
+    private void ResetSettings()
+    {
+        SettingsManager.Reset<CounterSettings>();
+    }
+}
